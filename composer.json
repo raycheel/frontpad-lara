@@ -1,0 +1,34 @@
+{
+    "name": "raycheel/frontpad-lara",
+    "description": "Пакет для работы с [Frontpad.ru](https://frontpad.ru/). Документация [here](https://docs.google.com/document/d/1gs81CYvJ6FD9KOseL3GOcrcR2YnEvjQqJn9mJRRc5Yk).",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": [
+          "src/helpers.php"
+        ],
+        "psr-4": {
+          "Raycheel\\FrontpadLara\\": "src"
+        }
+    },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Raycheel\\FrontpadLara\\ServiceProvider"
+      ],
+      "aliases": {
+        "Frontpad": "Raycheel\\FrontpadLara\\Facade\\Frontpad"
+      }
+    }
+  },
+    "authors": [
+        {
+            "name": "Evgeniy Mitrokhin",
+            "email": "maddysmog@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
