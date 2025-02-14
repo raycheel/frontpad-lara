@@ -1,5 +1,5 @@
 # Laravel Frontpad
-This package was created for [Frontpad.ru](https://frontpad.ru/). Documentation [here](https://docs.google.com/document/d/1gs81CYvJ6FD9KOseL3GOcrcR2YnEvjQqJn9mJRRc5Yk).
+Пакет для работы с  [Frontpad.ru](https://frontpad.ru/). Согласно документации [here](https://docs.google.com/document/d/1gs81CYvJ6FD9KOseL3GOcrcR2YnEvjQqJn9mJRRc5Yk).
 
 ## Installation
 ```
